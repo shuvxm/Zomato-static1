@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-img{
+    background-image: url('./Assets/bg-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+.getlink{
+    border: solid 0px green;
+    height: 100px;
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.getlink a{
+    text-decoration: none ;
+}
+.nav-menu{
+    border: solid 0px crimson;
+    height: 100px;
+    width: 45%;
+    margin-top: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin: auto;
+    padding: 5px 30px;
+    color: whitesmoke;
+}
+
+/* section 1 */
+
+.title{
+    border: solid 0px purple;
+    height:80px;
+    width:100%;
+   text-align: center;
+    font-size: 30px;
+    
+}
+.title h1{
+    color: white;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.section1 p{
+    border: solid 0px brown;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 10px;
+    font-family:sans-serif;
+    margin: 20px;
+}
+
+.location{
+    border: solid 0px crimson;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    border: solid 0px yellowgreen;
+    height: 50px;
+    width: 400px;
+}
+
+.input{
+    border: solid 3px white;
+    height: 50px;
+    width: 50%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+}
+
+select{
+    width: 150px;
+    text-align: center;
+    border: none;
+
+}
+
+.search{
+    border: solid 0px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: solid 0px slateblue;
+    height: 150px;
+    width: 300px;
+    object-fit:contain;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.image3{
+    border: solid 2px red;
+    height: 150px;
+    width: 250px;
+    /* object-fit:contain; */
+}
+
+.card img{
+    border: solid 0px red;
+    height: 150px;
+    width: 300px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.card h3{
+    margin:5px 0px;
+}
+
+/* section 3 - collections*/
+.collections{
+    margin-top: 100px;
+    margin-left: 4%;
+}
+.collections h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.card3{
+    border: solid 0px purple;
+    /* height: 200px; */
+    /* width: 250px; */
+    margin: 10px;
+    /* object-fit:contain; */
+
+}
+.coll-cards{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+
+.card3 img{
+    border: solid 0px red;
+    object-fit:cover;
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+}
+
+/* section 4 */
+.card4{
+    border: solid 0px palevioletred;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+.card41{
+    border: solid 1px whitesmoke;
+    height: 50px;
+    width: 300px;
+    margin: auto;
+    padding-left: 10px;
+    padding-left: 10px;
+
+    box-shadow: 10px 10px 8px whitesmoke;
+   
+
+}
+.card41 h3{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* section 5 - get the app n form */
+.section5{
+    margin: 50px 0px;
+    border: solid 0px crimson;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FFFBF7;
+}
+
+.section5 img{
+    border: solid 0px purple;
+    height: 250px;
+    width: 250px;
+    padding-top: 60px;
+}
+
+.form{
+    /* text-align: center; */
+    border: solid 0px violet;
+    padding-top: 60px;
+    
+    
+}
+.form h1{
+    margin-bottom: 20px;
+}
+.form p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.form input{
+    margin-bottom: 20px;
+}
+.inp5{
+    display: flex;
+    gap: 10px;
+   
+}
+.inp5 input{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.inp5 button{
+    border: none;
+    height: 45px;
+    width: 150px;
+    background-color: #E03546;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family:sans-serif;
+    border-radius: 5px;
+
+}
+
